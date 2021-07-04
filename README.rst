@@ -4,6 +4,8 @@ Nty Template
 
 The default templates for setting up a Nty_ team.
 
+.. _Nty: https://github.com/charlyoleg/nty
+
 
 Getting started
 ===============
