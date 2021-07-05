@@ -21,7 +21,7 @@ If you join a Nty-team::
 Start the *Nty-app* with the Desktop-icon or from terminal::
 
   cd team-xyz
-  npm run start_web_ui
+  npm run start_nty_web_ui
 
 
 If you are starting/founding a new Nty-team::
