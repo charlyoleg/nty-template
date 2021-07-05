@@ -1,0 +1,25 @@
+{
+  "name": "nty-template",
+  "version": "1.0.0",
+  "description": "template for Nty-data-repository",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start_nty_web_ui": "nty_web_ui",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlyoleg/nty-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlyoleg/nty-template/issues"
+  },
+  "homepage": "https://github.com/charlyoleg/nty-template#readme",
+  "dependencies": {
+    "nty": "^0.1.6"
+  }
+}

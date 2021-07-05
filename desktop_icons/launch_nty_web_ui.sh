@@ -6,7 +6,7 @@ cd $(dirname $0)
 pwd
 
 npm run
-npm run start_web_ui
+npm run start_nty_web_ui
 
 
 echo "The Nty-web-ui has been stopped!"
