@@ -39,7 +39,7 @@ If you are starting/founding a new Nty-team::
   npm run create_desktop_icon
 
 
-If you want to upgrade the Nty-app to the latest version::
+If you want to upgrade the *Nty-app* to the latest version::
 
   cd team-xyz
   git pull
@@ -47,4 +47,9 @@ If you want to upgrade the Nty-app to the latest version::
   git commit -am "upgrading nty to the newest version"
   git push
 
+
+If you want to use the *Nty-CLI*::
+
+  cd team-xyz
+  npx nty
 

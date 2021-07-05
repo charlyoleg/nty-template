@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start_nty_web_ui": "nty_web_ui",
+    "create_desktop_icon": "scr/install_desktop_icons_for_ubuntu.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
