@@ -10,7 +10,21 @@ The default templates for setting up a Nty_ team.
 Getting started
 ===============
 
-In a terminal::
+If you join a Nty-team::
+
+  git clone git@github.com:my-account/team-xyz.git
+  cd team-xyz
+  npm i
+  npm run create_desktop_icon
+
+
+Start the *Nty-app* with the Desktop-icon or from terminal::
+
+  cd team-xyz
+  npm run start_web_ui
+
+
+If you are starting/founding a new Nty-team::
 
   npx degit https://github.com/charlyoleg/nty-template team-xyz
   cd team-xyz
@@ -24,9 +38,13 @@ In a terminal::
   git push
   npm run create_desktop_icon
 
-Start the *Nty-app* with the Desktop-icon or from terminal::
+
+If you want to upgrade the Nty-app to the latest version::
 
   cd team-xyz
-  npm run start_web_ui
+  git pull
+  npm i nty@latest
+  git commit -am "upgrading nty to the newest version"
+  git push
 
 
