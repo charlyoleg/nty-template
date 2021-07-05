@@ -15,7 +15,7 @@ Comment[en_US]=Launch the Web-UI of the Nty-app\n\
 Exec=${REPO_PATH}/desktop_icons/launch_nty_web_ui.sh\n\
 Path=${REPO_PATH}\n\
 Icon=${REPO_PATH}/desktop_icons/nty_web_ui.png\n\
-Terminal=false\n\
+Terminal=true\n\
 Type=Application\n\
 Categories=Application\n\
 """
