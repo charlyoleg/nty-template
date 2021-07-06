@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "run_nty_web_ui": "nty_web_ui",
-    "launch_browser": "sleep 1 && sensible-browser http://localhost:8089/",
+    "launch_browser": "desktop_icons/browser_opens_nty_url.js",
     "start_nty_web_ui": "run-p run_nty_web_ui launch_browser",
     "create_desktop_icon": "scr/install_desktop_icons_for_ubuntu.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/charlyoleg/nty-template#readme",
   "dependencies": {
     "npm-run-all": "^4.1.5",
-    "nty": "^0.1.7"
+    "nty": "^0.1.7",
+    "open": "^8.2.1"
   }
 }
