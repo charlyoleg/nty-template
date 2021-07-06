@@ -15,7 +15,7 @@ If you join a Nty-team::
   git clone git@github.com:my-account/team-xyz.git
   cd team-xyz
   npm i
-  npm run create_desktop_icon
+  npm run create_desktop_icon_for_ubuntu
 
 
 Start the *Nty-app* with the Desktop-icon or from terminal::
@@ -36,7 +36,7 @@ If you are starting/founding a new Nty-team::
   git push --set-upstream origin master
   git pull
   git push
-  npm run create_desktop_icon
+  npm run create_desktop_icon_for_ubuntu
 
 
 If you want to upgrade the *Nty-app* to the latest version::
