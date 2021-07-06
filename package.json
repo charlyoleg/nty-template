@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "run_nty_web_ui": "nty_web_ui",
-    "launch_browser": "desktop_icons/browser_opens_nty_url.js",
+    "launch_browser": "node desktop_icons/browser_opens_nty_url.js",
     "start_nty_web_ui": "run-p run_nty_web_ui launch_browser",
     "create_desktop_icon": "scr/install_desktop_icons_for_ubuntu.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
