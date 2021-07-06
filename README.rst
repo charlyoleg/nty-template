@@ -53,3 +53,10 @@ If you want to use the *Nty-CLI*::
   cd team-xyz
   npx nty
 
+
+Add a desktop-icon on Windows
+=============================
+
+With a *file-browser*, navigate to *team-xyz/desktop_icons*. Right-click on *launch_nty_web_ui.bat* and then click on *Send to* and *Desktop (create shortcut)*. If you want to modify the icon of the *desktop shortcut*, right-click on the *desktop shortcut* and then click on *Properties*, *Change Icon ...* and navigate up to *team-xyz/desktop_icons* and select *nty_web_ui.ico*.
+
+
